@@ -1,0 +1,74 @@
+#viasatImg{
+    background:transparent url("https://www.viasat.com/sites/default/files/media/images/int_vsat_tm_rgb_grd.png");
+    height: 200px;
+    width: 500px;
+    position: relative;
+    bottom: 300px;
+    top: 120px;
+    left: -250px;
+    display: block;
+    margin: 0 auto;
+    }
+#description{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+#showButton{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    display: flex;
+    z-index: 2;
+}
+body{
+    background-color: #202e39;
+}
+.loginForm{
+    position: relative;
+    top: -40px;
+}
+.formInput{
+    background-color: #202e39;
+    border-color: #202e39;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    top: -10px;
+    transform: translate(-5%,50%);
+}
+#empId{
+    font-family: "Source Sans Pro";
+}
+#password{
+    font-family: "Source Sans Pro";
+}
+#login{
+    width: 435px;
+    position: relative;
+    left: 60px;
+
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 600 (semibold);
+    line-height: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 11px 35px;
+    background-color: #26a1a1;
+    border-radius: 25px;
+}
+.title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300 (Light);
+    font-size: 24px;
+    line-height: 1.25em/30px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+#confirm{
+    color: white;
+}
